@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: aliceblue;
 }
 
 .main-content {
@@ -40,6 +41,15 @@ header a {
     color: #888888;
     margin-right: 16px;
     text-decoration: none;
+    cursor: pointer;
+}
+
+#welcome-msg {
+    color: rgb(42, 22, 172);
+}
+
+header a:hover {
+    color: pink;
 }
 
 input {
@@ -53,4 +63,8 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
+}
+
+button:hover {
+    color: pink;
 }

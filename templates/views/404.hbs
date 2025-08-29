@@ -4,10 +4,13 @@
 
 <head>
     <link rel="stylesheet" href="/css/styles.css">
+    <title>404</title>
 </head>
 
 <body>
-    <title>404</title>
+    {{!-- Using HBS package, doubld brakets inserts data
+    where > pulls from other HTML/HBS sheets and double brakets alone pulls from the data
+    passed in the app.js file objects --}}
     <div class="main-content">
         {{>header}}
         <p>{{errorMessage}}</p>

@@ -4,10 +4,14 @@
 
 <head>
     <link rel="stylesheet" href="/css/styles.css">
+    <title>Help</title>
 </head>
 
+{{!-- Using HBS package, doubld brakets inserts data
+where > pulls from other HTML/HBS sheets and double brakets alone pulls from the data
+passed in the app.js file objects --}}
+
 <body>
-    <title>Help</title>
     <div class="main-content">
         {{>header}}
         <p>{{helpText}}</p>
